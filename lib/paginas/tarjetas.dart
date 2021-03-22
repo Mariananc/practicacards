@@ -5,14 +5,14 @@ class Tarjetas extends StatelessWidget {
     body: ListView(
       children:[
        Card(
-         color: Colors.blueGrey,
+         color: Colors.deepPurple,
          child: Padding(
            padding:EdgeInsets.all(20),
            child: Column(
              children: [
                Row(
                  children: [
-                   Text("Texto Prueba",style: TextStyle(fontSize: 18, color: Colors.black)),
+                   Text("Tarjetas",style: TextStyle(fontSize: 20, color: Colors.white)),
                  ],
                )
              ],
@@ -20,20 +20,110 @@ class Tarjetas extends StatelessWidget {
          ),
        ),
         Card(
-          color: Colors.blueGrey,
+          color: Colors.black12,
           child: Padding(
             padding:EdgeInsets.all(20),
             child: Column(
               children: [
                 Row(
                   children: [
-                    Text("Texto Prueba",style: TextStyle(fontSize: 18, color: Colors.black)),
+                    Text("Elemento 1",style: TextStyle(fontSize: 18, color: Colors.black)),
                   ],
                 )
               ],
             ),
           ),
-        )
+        ),
+        Card(
+          color: Colors.black12,
+          child: Padding(
+            padding:EdgeInsets.all(20),
+            child: Column(
+              children: [
+                Row(
+                  children: [
+                    Text("Elemento 2",style: TextStyle(fontSize: 18, color: Colors.black)),
+                  ],
+                )
+              ],
+            ),
+          ),
+        ),
+        Card(
+          color: Colors.black12,
+          child: Padding(
+            padding:EdgeInsets.all(20),
+            child: Column(
+              children: [
+                Row(
+                  children: [
+                    Text("Elemento 3",style: TextStyle(fontSize: 18, color: Colors.black)),
+                  ],
+                )
+              ],
+            ),
+          ),
+        ),
+        Card(
+          color: Colors.black12,
+          child: Padding(
+            padding:EdgeInsets.all(20),
+            child: Column(
+              children: [
+                Row(
+                  children: [
+                    Text("Elemento 4",style: TextStyle(fontSize: 18, color: Colors.black)),
+                  ],
+                )
+              ],
+            ),
+          ),
+        ),
+        Card(
+          color: Colors.black12,
+          child: Padding(
+            padding:EdgeInsets.all(20),
+            child: Column(
+              children: [
+                Row(
+                  children: [
+                    Text("Elemento 5",style: TextStyle(fontSize: 18, color: Colors.black)),
+                  ],
+                )
+              ],
+            ),
+          ),
+        ),
+        Card(
+          color: Colors.black12,
+          child: Padding(
+            padding:EdgeInsets.all(20),
+            child: Column(
+              children: [
+                Row(
+                  children: [
+                    Text("Elemento 6",style: TextStyle(fontSize: 18, color: Colors.black)),
+                  ],
+                )
+              ],
+            ),
+          ),
+        ),
+        Card(
+          color: Colors.black12,
+          child: Padding(
+            padding:EdgeInsets.all(20),
+            child: Column(
+              children: [
+                Row(
+                  children: [
+                    Text("Elemento 7",style: TextStyle(fontSize: 18, color: Colors.black)),
+                  ],
+                )
+              ],
+            ),
+          ),
+        ),
       ]
     ),
   );
